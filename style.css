@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+
+.heading-inside{
+    color: rgb(173, 31, 173);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container
+{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 15px 10px 10px;
+}
+.nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 6px 8px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(55, 39, 55);
+    cursor: pointer;
+}
+
+li a:hover{
+    color: rgb(225, 151, 225);
+}
+
+.btn
+{
+    border: 1px solid  rgb(55, 39, 55);
+    border-radius: 5px;
+    background-color: rgb(223, 186, 223);
+    width: 70px;
+    cursor: pointer;
+    color: rgb(103, 5, 103);
+    
+}
+.btn:hover{
+    background-color : rgb(189, 138, 189)
+}
+
+.input
+{
+    padding: 4px 6px;
+    border-radius: 3px solid rgb(223, 186, 223);
+    border: 1px solid rgb(252, 192, 192);
+    outline: none;
+    
+}
+
+.parralex-about{
+    padding: 12px 23px;
+   
+}
+
+.parralex-para{
+    padding: 13px 20px;
+}
+
+
+.container2
+{
+   
+    height: 200px;
+   
+    width: 100%;
+    
+   
+    
+}
+
+ .inner{
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+   
+  
+}
+
+.inner a{
+    padding: 13px 10px;
+    text-decoration: none;
+    color: rgb(55, 39, 55);
+    cursor: pointer;
+}
+
+.inner a:hover{
+    color: rgb(225, 151, 225);
+    
+}
+
+
